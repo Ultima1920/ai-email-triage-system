@@ -19,9 +19,7 @@ function getApiKey() {
 function processIncomingEmails() {
   // Define your trusted VIP list here. It can be specific emails or whole domains.
   const TRUSTED_ALLOWLIST = [
-    "malankpottergg@gmail.com", 
-    "yerra2910@gmail.com",
-    "ysrikar@iitbhilai.ac.in" // Anything ending with this domain will bypass spam checks
+    "sample@mail.com" // Anything ending with this domain will bypass spam checks
   ];
 
   // Grabs up to 40 threads within a 2-day window from both inbox and spam folders
